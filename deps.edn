@@ -1,0 +1,5 @@
+{:paths ["src"]
+
+ :deps {org.clojure/clojure {:mvn/version "1.11.0-alpha2"}}
+
+ :aliases {:mars {:main-opts ["-m" "nerd-snipe.mars-rover"]}}}
